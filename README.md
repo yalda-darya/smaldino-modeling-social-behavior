@@ -9,7 +9,7 @@ The book's original code uses NetLogo. This repository reimplements every exerci
 
 ## About This Project
 
-I'm a social psychology student working through Smaldino's book chapter by chapter. Each notebook is a full, self-contained implementation of a coding exercise, written to be readable and educational — not just functional.
+I'm a social psychology student working through Smaldino's book chapter by chapter. Each notebook is a full, self-contained implementation of a coding exercise, written to be readable and educational. 
 
 **What makes these notebooks different:**
 - Every line of code is commented to explain *what* it does and *why*
@@ -35,16 +35,32 @@ jupyter lab
 ```
 
 ---
+## Repository Structure 
 
-## Repository Structure
-
-```
 ├── chapter_02_particles/
-│   ├── ch02_particles_basic.ipynb       # Random walk, movement, collision detection
-│   └── ch02_particles_flock.ipynb       # Flocking and emergent collective motion
+│   ├── ch02_particles_basic.ipynb        # Random walk, movement, collision detection
+│   └── ch02_particles_flock.ipynb        # Emergent collective motion (flocking)
+│
+├── chapter_03_schelling/
+│   └── ch03_schelling_segregation.ipynb  # Residential segregation model
 │
 ├── chapter_04_contagion/
-│   └── ch04_spontaneous_adoption.ipynb  # Spontaneous adoption model (no social influence)
+│   └── ch04_spontaneous_adoption.ipynb   # Spontaneous adoption (no social influence)
+│
+├── chapter_05_opinion_dynamics/
+│   └── ch05_positive_influence.ipynb     # Opinion change through social influence
+│
+├── chapter_06_cooperation/
+│   └── ch06_cooperation.ipynb            # Evolution of cooperation
+│
+├── chapter_07_coordination/
+│   └── ch07_coordination.ipynb           # Coordination games and conventions
+│
+├── chapter_08_scientific_process/
+│   └── ch08_scientific_process.ipynb     # Models of science and knowledge production
+│
+├── chapter_09_networks/
+│   └── ch09_networks.ipynb               # Network structure and social dynamics
 │
 ├── requirements.txt
 └── README.md
