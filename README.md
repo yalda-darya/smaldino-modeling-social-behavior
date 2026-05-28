@@ -9,7 +9,7 @@ The book's original code uses NetLogo. This repository reimplements every exerci
 
 ## About This Project
 
-I'm a social psychology student working through Smaldino's book chapter by chapter. Each notebook is a full, self-contained implementation of a coding exercise, written to be readable and educational. 
+I'm a social psychology student working through Smaldino's book chapter by chapter. Each notebook is a full, self-contained implementation of a coding exercise, written to be readable and educational not just functional.
 
 **What makes these notebooks different:**
 - Every line of code is commented to explain *what* it does and *why*
@@ -35,8 +35,10 @@ jupyter lab
 ```
 
 ---
-## Repository Structure 
 
+## Repository Structure
+
+```
 ├── chapter_02_particles/
 │   ├── ch02_particles_basic.ipynb        # Random walk, movement, collision detection
 │   └── ch02_particles_flock.ipynb        # Emergent collective motion (flocking)
